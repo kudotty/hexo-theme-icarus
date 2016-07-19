@@ -1,10 +1,10 @@
+
 # Menus
 menu:
-  Home: .
-  Archives: archives
-  Categories: categories
-  Tags: tags
-  About: about
+  ZenHub Boards: https://github.com/kudotty/kudotty.com#boards?repos=63670542
+  SlideShare: http://www.slideshare.net/kudotty
+  Qiita: http://qiita.com/kudotty
+  半二重男女: http://half.kudotty.com/
 
 # Customize
 customize:
@@ -12,34 +12,29 @@ customize:
         enabled: true
         width: 40
         height: 40
-        url: images/logo.png
+        url: /images/kudottyDevOps.logo.svg
     profile:
         enabled: true # Whether to show profile bar
-        avatar: css/images/avatar.png
+        avatar: /images/kudottyDevOps.avatar.svg
         gravatar: # Gravatar email address, if you enable Gravatar, your avatar config will be overriden
-        author: PPOffice
-        author_title: Web Developer & Designer
-        location: Harbin, China
-        follow: https://github.com/ppoffice/
+        author: '@kudotty'
+        author_title: フルスタック色事師
+        location: Tokyo, Japan
+        follow: https://github.com/kudotty/
     highlight: monokai
     sidebar: right # sidebar position, options: left, right
     thumbnail: true # enable posts thumbnail, options: true, false
-    favicon: # path to favicon
+    favicon: css/icons/favicon-16x16.png
     social_links:
-        github: http://github.com/ppoffice/hexo-theme-icarus
-        twitter: /
-        facebook: /
-        dribbble: /
-        rss: /
+        slideshare: http://www.slideshare.net/kudotty
+        github: https://github.com/kudotty/
     social_link_tooltip: true # enable the social link tooltip, options: true, false
 
 # Widgets
 widgets:
     - recent_posts
     - category
-    - archive
     - tag
-    - tagcloud
     - links
 
 # Search
@@ -50,7 +45,7 @@ search:
 
 # Comment
 comment:
-    disqus: hexo-theme-icarus # enter disqus shortname here
+    disqus: kudotty # enter disqus shortname here
     duoshuo: # enter duoshuo shortname here
     youyan: # enter youyan uid here
 
@@ -59,7 +54,7 @@ share: default # options: jiathis, bdshare, addtoany, default
 
 # Plugins
 plugins:
-    fancybox: true # options: true, false
+    fancybox: false # options: true, false
     google_analytics: # enter the tracking ID for your Google Analytics
     google_site_verification: # enter Google site verification code
     baidu_analytics: # enter Baidu Analytics hash key
@@ -72,4 +67,4 @@ miscellaneous:
         twitter_id:
         google_plus:
     links:
-        Hexo: http://hexo.io
+        Hackers Bar: http://hackers.bar/
