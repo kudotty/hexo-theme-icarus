@@ -24,7 +24,7 @@ customize:
     highlight: monokai
     sidebar: right # sidebar position, options: left, right
     thumbnail: true # enable posts thumbnail, options: true, false
-    favicon: css/icons/favicon-16x16.png
+    favicon: true
     social_links:
         slideshare: http://www.slideshare.net/kudotty
         github: https://github.com/kudotty/
