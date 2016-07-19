@@ -26,6 +26,8 @@ customize:
     thumbnail: true # enable posts thumbnail, options: true, false
     favicon: true
     social_links:
+        twitter: https://twitter.com/kudottyDevOps
+        facebook: https://www.facebook.com/
         slideshare: http://www.slideshare.net/kudotty
         github: https://github.com/kudotty/
     social_link_tooltip: true # enable the social link tooltip, options: true, false
@@ -62,9 +64,9 @@ plugins:
 # Miscellaneous
 miscellaneous:
     open_graph: # see http://ogp.me
-        fb_app_id:
+        fb_app_id: 1628494627462953
         fb_admins:
-        twitter_id:
+        twitter_id: kudottyDevOps
         google_plus:
     links:
         Hackers Bar: http://hackers.bar/
