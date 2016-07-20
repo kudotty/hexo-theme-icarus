@@ -35,6 +35,7 @@ customize:
 # Widgets
 widgets:
     - recent_posts
+    - qiita-timeline
     - category
     - tag
     - links
