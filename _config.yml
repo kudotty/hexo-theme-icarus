@@ -26,7 +26,7 @@ customize:
     thumbnail: true # enable posts thumbnail, options: true, false
     favicon: true
     social_links:
-        rss: feed/atom.xml
+        rss: /feed/atom.xml
         twitter: https://twitter.com/kudottyDevOps
         facebook: https://www.facebook.com/
         slideshare: http://www.slideshare.net/kudotty
